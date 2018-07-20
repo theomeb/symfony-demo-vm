@@ -1,0 +1,19 @@
+# Logfile created on 2018-07-20 10:34:32 +0200 by logger.rb/56438
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-07-20 10:34:32 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9f9a8491] Running /usr/bin/env mkdir -p /tmp as ubuntu@18.217.91.180
+ DEBUG [9f9a8491] Command: ( export SYMFONY_ENV="staging" ; /usr/bin/env mkdir -p /tmp )
+  INFO [a420f837] Finished in 1.568 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-myapp-staging-theomeborck.sh 0.0%
+  INFO Uploading /tmp/git-ssh-myapp-staging-theomeborck.sh 100.0%
+  INFO [1c85086d] Running /usr/bin/env chmod 700 /tmp/git-ssh-myapp-staging-theomeborck.sh as ubuntu@18.217.91.180
+ DEBUG [1c85086d] Command: ( export SYMFONY_ENV="staging" ; /usr/bin/env chmod 700 /tmp/git-ssh-myapp-staging-theomeborck.sh )
+  INFO [599dfd3e] Finished in 0.611 seconds with exit status 0 (successful).
+  INFO [ed55a6d0] Running /usr/bin/env git ls-remote  HEAD as ubuntu@18.217.91.180
+ DEBUG [ed55a6d0] Command: ( export SYMFONY_ENV="staging" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-myapp-staging-theomeborck.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [d1110c4e] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [d1110c4e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
